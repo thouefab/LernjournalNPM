@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<!-- DevOps.jpg has been taken from the following Source all credits goes to the original creator 
+   https://wallpaperaccess.com/devops https://www.google.ch/search?q=Devops+bild+4K+resolution&tbm=isch&ved=2ahUKEwjPgunhldL2AhUOn6QKHX38CzcQ2-cCegQIABAA&oq=Devops+bild+4K+resolution&gs_lcp=CgNpbWcQA1CwGliiKWDdKmgAcAB4AIABX4gBjgeSAQIxMpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=v8s1Yo-nPI6-kgX9-K-4Aw#imgrc=nMrdvdMlzHRfJM -->
+    <!-- watering-plants.jpg has been taken from the following Source all credits goes to the original creator 
+    https://www.bing.com/images/search?view=detailV2&ccid=7vIoh%2fb%2f&id=C9347B058AF9C3D7840BFBF554CCBC9D551FEA59&thid=OIP.7vIoh_b_GUszNmRogY-0VAHaFu&mediaurl=https%3a%2f%2fwww.pinclipart.com%2fpicdir%2fmiddle%2f365-3659053_watsonwalker-website-icon-software-blue-computer-minimalist-icon.png&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.eef22887f6ff194b33366468818fb454%3frik%3dWeofVZ28zFT1%252bw%26pid%3dImgRaw%26r%3d0&exph=680&expw=880&q=computer+shortcut+icon+website&simid=608045989310693779&FORM=IRPRST&ck=BA69C3194723313CE47958C29C3E19D9&selectedIndex=32&ajaxhist=0&ajaxserp=0 -->
+<head>
+    <style>
+        body {
+          background-image: url('DevOps.jpg'); 
+          background-size: 110%;
+          
+        }
+        
+        </style>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="node_modules/chart.js/dist/Chart.min.js"></script>
+   
+
+    <title>DevOps-Uebung-W3</title>
+    <link rel="shortcut icon" type="image/jpg" href="OIP.jpg">
+</head>
+<body>
+    <canvas id="myChart" width="400" height="400"></canvas>
+    <script>
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+    labels: ['Dev', 'Ops', 'DevOps', 'IT', 'Hardware', 'Software'],
+    datasets: [{
+    label: '# of Votes',
+    data: [16, 15, 20, 17, 13, 18],
+    backgroundColor: [
+    'rgba(255, 99, 132, 0.2)',
+    'rgba(54, 162, 235, 0.2)',
+    'rgba(255, 206, 86, 0.2)',
+    'rgba(75, 192, 192, 0.2)',
+    'rgba(153, 102, 255, 0.2)',
+    'rgba(255, 159, 64, 0.2)'
+    ],
+    borderColor: [
+    'rgba(255, 99, 132, 1)',
+    'rgba(54, 162, 235, 1)',
+    'rgba(255, 206, 86, 1)',
+    'rgba(75, 192, 192, 1)',
+    'rgba(153, 102, 255, 1)',
+    'rgba(255, 159, 64, 1)'
+    ],
+    borderWidth: 1
+    }]
+    },
+    options: {
+    scales: {
+    yAxes: [{
+    ticks: {
+    beginAtZero: true
+    }
+    }]
+    }
+    }
+    });
+    </script>
+    </body>
+
+ 
+  
+</html>
+
+
